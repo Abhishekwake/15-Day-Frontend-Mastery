@@ -1,3 +1,20 @@
+import LikeButton from "./LikeButton";
+function App(){
+  return(
+    <div>
+      <h1>User 1</h1>
+      <LikeButton initialLiked={false}/>
+
+      <h1>User 2</h1>
+      <LikeButton initialLiked={true}/>
+    </div>
+
+  );
+}
+
+export default App;
+
+/*
 import { useState, useEffect } from "react";
 function App()
 {
@@ -12,8 +29,9 @@ function App()
 
   return <h1>Hello {user}</h1>
 }
-export default App;
 
+export default App;
+*/
 
 /*
 import { useState } from "react";
