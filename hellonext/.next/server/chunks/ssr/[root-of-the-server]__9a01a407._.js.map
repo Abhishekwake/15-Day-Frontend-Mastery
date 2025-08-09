@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"","debugId":null}},
+    {"offset": {"line": 22, "column": 0}, "map": {"version":3,"sources":["file:///C:/Real%20Muscle%20Dev/NextJS-JSM/hellonext/app/%28root%29/about/page.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nfunction page() {\r\n  return (\r\n    <div>\r\n      ABOUT\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default page\r\n"],"names":[],"mappings":";;;;;AAEA,SAAS;IACP,qBACE,8OAAC;kBAAI;;;;;;AAIT;uCAEe","debugId":null}}]
+}

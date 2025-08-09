@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["file:///C:/Real%20Muscle%20Dev/NextJS-JSM/hellonext/app/dashboard/layout.tsx"],"sourcesContent":["import React from 'react'\r\n\r\nfunction layout({children } : { children: React.ReactNode }) {\r\n  return (\r\n    <div>\r\n        <p className='text-3xl'>DASHBAOR</p>\r\n      {children}\r\n    </div>\r\n  )\r\n}\r\n\r\nexport default layout\r\n"],"names":[],"mappings":";;;;;AAEA,SAAS,OAAO,EAAC,QAAQ,EAAkC;IACzD,qBACE,8OAAC;;0BACG,8OAAC;gBAAE,WAAU;0BAAW;;;;;;YACzB;;;;;;;AAGP;uCAEe","debugId":null}}]
+}
