@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Practice</title>
+    </head>
+    <body style="padding-bottom: 1000px;">
+                <div style="
+                display: grid;
+                grid-template-columns: 100px 100px;     
+                ">
+                    <div style="background-color: lightblue;">Div1</div>
+                    <div style="background-color: lightpink;">Div2 <p>text</p></div>
+                </div>
+
+                <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 100px 100px 300px;     
+                ">
+                    <div style="background-color: lightblue;">Div1</div>
+                    <div style="background-color: lightpink;">Div2 <p>text</p></div>
+                    <div style="background-color: lightblue;">Div1</div>
+                    <div style="background-color: lightpink;">Div2 </div>
+                </div>
+
+                <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 100px 1fr  
+                ">
+                    <div style="background-color: lightblue;">100px</div>
+                    <div style="background-color: lightpink;">1FR</div>
+                
+                </div>
+            
+                <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 100px 1fr   2fr
+                ">
+                    <div style="background-color: lightblue;">100px</div>
+                    <div style="background-color: lightpink;">1FR</div>
+                    <div style="background-color: lightblue;">1FR</div>
+                
+                </div>
+
+                <div style="
+                margin-top: 30px;
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                column-gap: 20px;
+                row-gap: 40px;
+                ">
+                    <div style="background-color: lightblue; height: 200px;">1FR</div>
+                    <div style="background-color: lightpink; height: 200px">1FR</div>
+                    <div style="background-color: lightblue; height: 200px">1FR</div>
+                    <div style="background-color: lightpink; height: 200px">1FR</div>
+                    <div style="background-color: lightblue; height: 200px">1FR</div>
+                    <div style="background-color: lightpink; height: 200px">1FR</div>
+                
+                </div>
+
+                <!-- the way we wrie CSS is called Inline style css
+                A grid is a layout which has rows and columns 2 * 3 grid
+                2 rows and 3 coloums | 1 *by 2 grid 1 row and 2 coloumns   -
+                So these two values define how wide our grid columns are. The first column is going to have 
+                a width of 100 pixels,....100px and grid of 2 columns 
+
+                notice that this diviv is no longer taking up the entire line.
+                So recall that divs are displayed blocked by default. They're supposed to take up the entire line,
+                but when this element is inside a grid, it's actually placed into the grid,
+                so it only takes up the entire column instead. The second thing you'll notice is that there's no extra space between these two,
+                unlike with display inline block. And the third thing to notice is that, for example,
+
+                let's add another element into the second. Let's add a paragraph of text, save it when we add more elements.
+                This makes the second taller than the first one, but they're vertically aligned,
+                and that's another difference between grids and display. In line block grids maintain alignment much better.
+
+                And now you can see that this fourth diviv wraps around to a second row.
+                So whenever we have more elements than we have columns here, it starts to wrap around and create new rows
+                ->
+                
+                we're going to change it to one 1fr. So FR is a special value in grid that stands for free space.
+                It means to take up the remaining amount of space on this grid. So if I save it,
+
+    </body>
+</html>

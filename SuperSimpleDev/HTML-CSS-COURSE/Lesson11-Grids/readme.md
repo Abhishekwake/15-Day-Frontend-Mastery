@@ -1,0 +1,2 @@
+removed space between upper div to remove that 5px space causing alignment issue its fixed but new readiness issue comed'
+that why we used GRIDS so see problem remove and add spcae in upper divs line 87 -->
